@@ -26,10 +26,6 @@ La energía cinética $T$ y la energía potencial $V$ del sistema se definen com
 $$T = \frac{1}{2} m \left[ R^2 \dot{\theta}^2 + \dot{l}^2 + l^2 \dot{\phi}^2 + 2 R \dot{l} \dot{\theta} \sin(\theta + \phi) + 2 R l \dot{\theta} \dot{\phi} \cos(\theta + \phi) \right] + \frac{1}{2} m_a R^2 \dot{\theta}^2$$
 
 $$V = m g (R \cos\theta - l \cos\phi) + m_a g R \cos\theta + \frac{1}{2} k (l - l_0)^2$$
-
-> **Nota técnica (Matriz de Masas y Anclaje):** 
-> En el caso límite ideal de un anclaje sin masa ($m_a = 0$), el determinante de la matriz de masas se vuelve singular ($\det \mathbf{M} = 0$), lo que fuerza la alineación radial estricta del resorte ($\sin(\theta+\phi)=0$) salvo que no exista tensión. Para resolver numéricamente las ecuaciones diferenciales sin singularidades algebraicas, el modelo introduce una pequeña masa auxiliar en el anclaje $m_a \ll m$. Al hacer $m_a \to 0$, se recupera progresivamente el comportamiento exacto del modelo teórico.
-
 ---
 
 ## 🚀 Requisitos e Instalación
